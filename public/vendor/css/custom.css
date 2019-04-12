@@ -1,0 +1,42 @@
+
+/**
+* Created by Pandika 
+*/
+
+
+.card-header .table-name{
+    display: inline-block;
+    vertical-align: middle;
+    height: fit-content;
+}
+
+.card-header .btn{
+    display: inline-block;
+}
+
+.container-pandu {
+    padding-top: 8rem;
+}
+
+.page-header.pandu{
+    padding: 1rem!important;
+}
+
+.btn-delete{
+    display: inline;
+}
+
+/* ==============================
+   Phone
+   ============================== */
+  
+   @media only screen and (max-width: 480px) {
+
+    .container-pandu {
+        padding-top: 0rem;
+    }
+    
+    .page-header.pandu{
+        padding-top: 10rem !important;
+    }
+}
