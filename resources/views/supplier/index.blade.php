@@ -1,40 +1,40 @@
 @extends('layouts.admin.app') 
 
 @section('title') 
-Admin Dashboard | Vendor
+Admin Dashboard |
 @endsection
 
 @section('css')
     <!-- Data table css -->
-	<link href="{{asset('/vendor/plugins/datatable/dataTables.bootstrap4.min.css')}}" rel="stylesheet" />
-	<link href="{{asset('/vendor/plugins/datatable/responsivebootstrap4.min.css')}}" rel="stylesheet" />
-	<link href="{{asset('/vendor/plugins/customscroll/jquery.mCustomScrollbar.css')}}" rel="stylesheet" />
+	<link href="{{asset('/plugins/datatable/dataTables.bootstrap4.min.css')}}" rel="stylesheet" />
+	<link href="{{asset('/plugins/datatable/responsivebootstrap4.min.css')}}" rel="stylesheet" />
+	<link href="{{asset('/plugins/customscroll/jquery.mCustomScrollbar.css')}}" rel="stylesheet" />
 	<!-- Sidemenu Css -->
-	<link href="{{asset('/vendor/plugins/toggle-sidebar/css/sidemenu.css')}}" rel="stylesheet">
+	<link href="{{asset('/plugins/toggle-sidebar/css/sidemenu.css')}}" rel="stylesheet">
     <!-- sweetalert css-->
-	<link href="{{asset('/vendor/plugins/sweet-alert/sweetalert.css')}}" rel="stylesheet" />
+	<link href="{{asset('/plugins/sweet-alert/sweetalert.css')}}" rel="stylesheet" />
 @endsection
 
 @section('js')
     <!-- Data tables -->
-	<script src="{{asset('/vendor/plugins/datatable/jquery.dataTables.min.js')}}"></script>
-	<script src="{{asset('/vendor/plugins/datatable/dataTables.bootstrap4.min.js')}}"></script>
-	<script src="{{asset('/vendor/plugins/datatable/dataTables.responsive.min.js')}}"></script>
-	<script src="{{asset('/vendor/plugins/datatable/responsive.bootstrap4.min.js')}}"></script>
+	<script src="{{asset('/plugins/datatable/jquery.dataTables.min.js')}}"></script>
+	<script src="{{asset('/plugins/datatable/dataTables.bootstrap4.min.js')}}"></script>
+	<script src="{{asset('/plugins/datatable/dataTables.responsive.min.js')}}"></script>
+	<script src="{{asset('/plugins/datatable/responsive.bootstrap4.min.js')}}"></script>
 
 	<!-- Fullside-menu Js-->
-	<script src="{{asset('/vendor/plugins/toggle-sidebar/js/sidemenu.js')}}"></script>
+	<script src="{{asset('/plugins/toggle-sidebar/js/sidemenu.js')}}"></script>
 
 	<!-- Custom scroll bar Js-->
-	<script src="{{asset('/vendor/plugins/customscroll/jquery.mCustomScrollbar.concat.min.js')}}"></script>
+	<script src="{{asset('/plugins/customscroll/jquery.mCustomScrollbar.concat.min.js')}}"></script>
 
     <!-- Sweet alert Plugin -->
-	<script src="{{asset('/vendor/plugins/sweet-alert/sweetalert.min.js')}}"></script>
-    <script src="{{asset('/vendor/js/sweet-alert.js')}}"></script>
+	<script src="{{asset('/plugins/sweet-alert/sweetalert.min.js')}}"></script>
+    <script src="{{asset('/js/sweet-alert.js')}}"></script>
     
 	<!-- Adon JS -->
-	<script src="{{asset('/vendor/js/custom.js')}}"></script>
-    <script src="{{asset('/vendor/js/datatable.js')}}"></script>
+	<script src="{{asset('/js/custom.js')}}"></script>
+    <script src="{{asset('/js/datatable.js')}}"></script>
     
     <script>
 	    $(document).ready(function(){

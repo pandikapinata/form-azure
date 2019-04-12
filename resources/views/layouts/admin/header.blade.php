@@ -4,14 +4,14 @@
 
         <!-- Brand -->
         <a class="navbar-brand pt-0 d-md-none" href="">
-            <img src="{{ URL::asset('vendor/img/logo-ap.png') }}" class="navbar-brand-img" alt="...">
+            <img src="{{ URL::asset('/img/logo-ap.png') }}" class="navbar-brand-img" alt="...">
         </a>
         <!-- User -->
         <ul class="navbar-nav align-items-center ">
             <li class="nav-item dropdown">
                 <a aria-expanded="false" aria-haspopup="true" class="nav-link pr-md-0 mr-md-2 pl-1" data-toggle="dropdown" href="#" role="button">
                     <div class="media align-items-center">
-                        <span class="avatar avatar-sm rounded-circle"><img alt="Image placeholder" src="{{ URL::asset('vendor/img/avatar.png') }}"></span>
+                        <span class="avatar avatar-sm rounded-circle"><img alt="Image placeholder" src="{{ URL::asset('/img/avatar.png') }}"></span>
                     </div>
                 </a>
                 <div class="dropdown-menu dropdown-menu-arrow dropdown-menu-right">
