@@ -1,7 +1,7 @@
 @extends('layouts.admin.app') 
 
 @section('title') 
-Admin Dashboard |
+Admin Dashboard | Suppliers
 @endsection
 
 @section('css')

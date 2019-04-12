@@ -5,18 +5,18 @@ Admin Dashboard
 @endsection
 
 @section('css')
-	<link href="{{asset('/vendor/plugins/customscroll/jquery.mCustomScrollbar.css')}}" rel="stylesheet" />
+	<link href="{{asset('/plugins/customscroll/jquery.mCustomScrollbar.css')}}" rel="stylesheet" />
 	<!-- Sidemenu Css -->
-	<link href="{{asset('/vendor/plugins/toggle-sidebar/css/sidemenu.css')}}" rel="stylesheet">
+	<link href="{{asset('/plugins/toggle-sidebar/css/sidemenu.css')}}" rel="stylesheet">
 @endsection
 
 @section('js')   
 	<!-- Fullside-menu Js-->
-	<script src="{{asset('/vendor/plugins/toggle-sidebar/js/sidemenu.js')}}"></script>
+	<script src="{{asset('/plugins/toggle-sidebar/js/sidemenu.js')}}"></script>
 	<!-- Custom scroll bar Js-->
-	<script src="{{asset('/vendor/plugins/customscroll/jquery.mCustomScrollbar.concat.min.js')}}"></script>
+	<script src="{{asset('/plugins/customscroll/jquery.mCustomScrollbar.concat.min.js')}}"></script>
 	<!-- Adon JS -->
-	<script src="{{asset('/vendor/js/custom.js')}}"></script>
+	<script src="{{asset('/js/custom.js')}}"></script>
 @endsection
 
 @section('body_class', 'app sidebar-mini rtl')
